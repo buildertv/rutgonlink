@@ -2,14 +2,9 @@
 services:
   app:
     build: .
-    container_name: url_shortener_container
+    container_name: url_shortener
     ports:
       - "3515:3000"
-        environment:
-      - PORT=3000
-      - CSV_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1v.../pub?output=csv
-      - ADMIN_PASSWORD=Mật_Khẩu_Ở_Đây
-      - APPSCRIPT_URL=Điền_Link_Web_App_AppsScript
-:
-      
+    env_file:
+      - .env
     restart: always
