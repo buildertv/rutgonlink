@@ -57,7 +57,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
         <div class="container">
-            <h2>Rút Gọn Link Hệ Thống</h2>
+            <h2>Rút Gọn Link</h2>
             <div id="message"></div>
             <form id="shortenForm">
                 <div class="form-group">
