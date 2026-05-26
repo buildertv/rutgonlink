@@ -5,7 +5,11 @@ services:
     container_name: url_shortener_container
     ports:
       - "3515:3000"
-    environment:
+        environment:
       - PORT=3000
-      - CSV_URL=THAY_LINK_CSV_GOOGLE_SHEET_CỦA_ANH_VÀO_ĐÂY
+      - CSV_URL=https://docs.google.com/spreadsheets/d/e/2PACX-1v.../pub?output=csv
+      - ADMIN_PASSWORD=Mật_Khẩu_Ở_Đây
+      - APPSCRIPT_URL=Điền_Link_Web_App_AppsScript
+:
+      
     restart: always
