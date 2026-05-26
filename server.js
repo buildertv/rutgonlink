@@ -50,7 +50,15 @@ app.get('/', (req, res) => {
             input:focus { border-color: #007bff; box-shadow: 0 0 5px rgba(0,123,255,0.2); }
             button { width: 100%; padding: 12px; background: #007bff; border: none; color: white; font-size: 16px; font-weight: bold; border-radius: 6px; cursor: pointer; transition: 0.3s; margin-top: 10px; }
             button:hover { background: #0056b3; }
-            #message { margin-top: 15px; padding: 10px; border-radius: 6px; display: none; text-align: center; font-weight: 600; }
+            #message { 
+    margin-bottom: 15px; 
+    padding: 12px; 
+    border-radius: 6px; 
+    display: none; 
+    text-align: center; 
+    font-weight: 600; 
+    font-size: 15px;
+}
             .success { background: #d4edda; color: #155724; }
             .error { background: #f8d7da; color: #721c24; }
         </style>
