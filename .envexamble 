@@ -1,0 +1,4 @@
+PORT=3000
+CSV_URL=https://docs.google.com/spreadsheets/d/e/.../pub?output=csv
+ADMIN_PASSWORD=mật_khẩu_bí_mật_của_anh
+APPSCRIPT_URL=https://script.google.com/macros/s/.../exec
