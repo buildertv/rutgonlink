@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: url_shortener_container
+    ports:
+      - "80:3000"
+    environment:
+      - PORT=3000
+      - CSV_URL=THAY_LINK_CSV_GOOGLE_SHEET_CỦA_ANH_VÀO_ĐÂY
+    restart: always
